@@ -18,6 +18,9 @@
 html {
     margin: 0;
     padding: 0;
+    background-color: var(--very-Dark-Blue);
     font-size: 15px;
     font-family: 'Overpass', sans-serif;
+    color: var(--light-Grey);
 }
+

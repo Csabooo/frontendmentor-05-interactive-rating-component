@@ -28,7 +28,7 @@
     border-radius: 15px;
     padding: 1.5rem;
     box-sizing: border-box;
-
+    display: block;
 }
 
 button {
@@ -43,6 +43,7 @@ button {
     padding: 4%;
     letter-spacing: 4px;
     font-weight: 400;
+    user-select: none;
 }
 
 button:hover {
@@ -82,7 +83,7 @@ html {
 }
 
 
-#numbers a {
+#numbers .a {
     text-decoration: none;
     font-weight: 700;
     color: var(--leight-Grey);
@@ -94,20 +95,32 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.3s;
+    font-family: inherit;
 }
 
 
 
-#numbers a:hover {
+#numbers .a:hover {
     background-color: var(--orange);
     color: var(--white);
 }
 
- #numbers a:focus {
+#numbers .a:focus {
     background-color: var(--light-Grey);
     color: var(--white);
 }
 
+p.gray {
+    display: inline-block;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+    padding: 0.3rem 1rem 0;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
 
 section {
@@ -126,4 +139,20 @@ section {
     display: block;
     margin: 15px 0;
     color: var(--orange);
+}
+
+
+
+.thank-you {
+    position: relative;
+    width: 340px;
+    background-color: var(--dark-Blue);
+    border-radius: 15px;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    display: block;
+}
+
+.thank-you.hidden {
+    display: none;
 }

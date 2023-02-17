@@ -7,6 +7,9 @@
     --orange: hsl(25, 97%, 53%);
 }
 
+.a {
+    padding-left: 4px;
+}
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -97,6 +100,7 @@ html {
     align-items: center;
     transition: 0.3s;
     font-family: inherit;
+    text-align: center;
 }
 
 
@@ -120,7 +124,7 @@ p.gray {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
 
 
 section {

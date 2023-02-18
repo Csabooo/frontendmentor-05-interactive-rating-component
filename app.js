@@ -15,8 +15,22 @@ ratings.forEach((rating) => {
 })
 
 
+//---Improved code snippet--------:
 submitButton.addEventListener("click", () => {
+    if (actualRating.innerText === '') {
+        
+    } else {
+        mainContainer.style.display = "none";
+        thanksContainer.classList.remove("hidden");
+    }
+     
+
+})
+
+
+//---Original code snippet--------:
+/* submitButton.addEventListener("click", () => {
      mainContainer.style.display = "none";
     thanksContainer.classList.remove("hidden");
 
-})
+}) */
